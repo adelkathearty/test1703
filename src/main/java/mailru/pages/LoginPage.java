@@ -37,9 +37,8 @@ public class LoginPage {
 
     public LoginPage pressLoginButton() {
         driver.findElement(loginButton).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.switchTo().defaultContent();
-        driver.navigate().refresh();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return this;
     }
 
