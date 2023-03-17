@@ -12,4 +12,4 @@ Java версии 19
 Для выбора версии браузера для запуска тестов необходимо открыть файл BrowserSettings.java и установить значение поля BROWSER_AND_PLATFORM. В данном файле  представлены три версии: MACOS, MACOSINTEL, WINDOWS.
 
 
-
+версии Junit/Selenium/Maven в pom.xml
